@@ -12,7 +12,7 @@ Route::get('/produk', function () {
 });
 
 Route::get('/kategori', function () {
-    return ('Ini halaman kategori');
+    return ('Ini halaman kategori pada toko');
 });
 
 Route::get('/keranjang', function () {
@@ -25,6 +25,10 @@ Route::get('/checkout', function () {
 
 Route::get('/pesanan', function () {
     return ('Ini halaman pesanan');
+});
+
+Route::get('/payments', function () {
+    return ('Ini halaman pembayaran');
 });
 
 // Route::view('dashboard', 'dashboard')
